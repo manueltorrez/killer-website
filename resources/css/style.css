@@ -9,5 +9,14 @@ html {
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
+    font-weight: 300;
     text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    /* Top: 0, Right: auto, Bottom: 0, Left: 0 in order to center it */
+    /* margin: 0 auto 0 auto; */
+    /* Top and Bottom: 0, Right and Left: auto */
+    margin: 0 auto;
 }
