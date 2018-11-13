@@ -20,3 +20,24 @@ html {
     /* Top and Bottom: 0, Right and Left: auto */
     margin: 0 auto;
 }
+
+header {
+    /* linear-gradient is used to add gradient on top of the image */
+    /* in this case, is used to tint the img with transparent black */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
