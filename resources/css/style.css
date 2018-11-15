@@ -20,6 +20,15 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* ---------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------------- */
@@ -243,6 +252,10 @@ header {
 /* ---------------------------------------------- */
 /* HOW IT WORKS */
 /* ---------------------------------------------- */
+
+.section-steps {
+    background-color: #f4f4f4;
+}
 
 .steps-box:first-child {
     text-align: right;
