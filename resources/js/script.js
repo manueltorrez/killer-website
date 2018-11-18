@@ -92,3 +92,18 @@ let waypoint4 = new Waypoint({
     document.querySelector('.js--wp-4').classList.add('animated', 'pulse');
   }
 });
+
+// Mobile nav
+document.querySelector('.js--nav-icon').addEventListener('click', () => {
+  let nav = $('.js--main-nav');
+  let icon = document.querySelector('.js--nav-icon i');
+  nav.slideToggle(200);
+
+  if(icon.classList.contains('ion-navicon-round')) {
+    icon.classList.remove('ion-navicon-round');
+    icon.classList.add('ion-close-round');
+  } else {
+    icon.classList.remove('ion-close-round');
+    icon.classList.add('ion-navicon-round');
+  }
+})
